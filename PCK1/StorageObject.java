@@ -16,17 +16,13 @@ public class StorageObject {
 		this.objectName = objectName;
 	}
 
-
 	public long getCreationTime() {
 		return creationTime;
 	}
 
-
 	public double getValue() {
 		return value;
 	}
-
-
 
 	public String getObjectName() {
 		return objectName;
@@ -43,5 +39,4 @@ public class StorageObject {
 	public void setSortedTime(long sortedTime){
 		this.sortedTime = sortedTime;
 	}
-	
 }
