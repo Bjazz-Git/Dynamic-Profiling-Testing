@@ -4,7 +4,7 @@ public class StorageObject {
 	private long creationTime;
 	private double value;
 	private String objectName;
-	
+	private long sortedTime;
 	
 	public StorageObject() {
 		
@@ -34,6 +34,14 @@ public class StorageObject {
 	
 	public void setObjectName(String objectName) {
 		this.objectName = objectName;
+	}
+
+	public long getSortedTime(){
+		return sortedTime;
+	}
+
+	public void setSortedTime(long sortedTime){
+		this.sortedTime = sortedTime;
 	}
 	
 }
