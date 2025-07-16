@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class MainClass {
-	
-	
+		
 	public static void main(String[] args) {
 		long programStartTime = System.currentTimeMillis();
 		int totalNumberOfObjects = 10000;
